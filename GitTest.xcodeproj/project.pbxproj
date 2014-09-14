@@ -21,6 +21,7 @@
 		EEB8F68719C61F5400AA96D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB8F66919C61F5400AA96D8 /* UIKit.framework */; };
 		EEB8F68F19C61F5400AA96D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEB8F68D19C61F5400AA96D8 /* InfoPlist.strings */; };
 		EEB8F69119C61F5400AA96D8 /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB8F69019C61F5400AA96D8 /* GitTestTests.m */; };
+		EEB8F69C19C622A700AA96D8 /* CCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB8F69B19C622A700AA96D8 /* CCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		EEB8F68C19C61F5400AA96D8 /* GitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitTestTests-Info.plist"; sourceTree = "<group>"; };
 		EEB8F68E19C61F5400AA96D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EEB8F69019C61F5400AA96D8 /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		EEB8F69A19C622A700AA96D8 /* CCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTest.h; sourceTree = "<group>"; };
+		EEB8F69B19C622A700AA96D8 /* CCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		EEB8F65919C61F5300AA96D8 = {
 			isa = PBXGroup;
 			children = (
+				EEB8F69A19C622A700AA96D8 /* CCTest.h */,
+				EEB8F69B19C622A700AA96D8 /* CCTest.m */,
 				EEB8F66B19C61F5400AA96D8 /* GitTest */,
 				EEB8F68A19C61F5400AA96D8 /* GitTestTests */,
 				EEB8F66419C61F5300AA96D8 /* Frameworks */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEB8F67619C61F5400AA96D8 /* CCAppDelegate.m in Sources */,
+				EEB8F69C19C622A700AA96D8 /* CCTest.m in Sources */,
 				EEB8F67219C61F5400AA96D8 /* main.m in Sources */,
 				EEB8F67C19C61F5400AA96D8 /* CCViewController.m in Sources */,
 			);
